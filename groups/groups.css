@@ -1,0 +1,43 @@
+.section-divider{
+    width: 100%;
+    max-width: 1300px;
+}
+
+.group-content{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1200px;
+    font-size: 15pt;
+}
+
+.group-header{
+    margin-bottom: 30px;
+}
+
+.group-image{
+    width: 326px;
+    height: 243px;
+}
+
+.group-images{
+    font-size: 18pt;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stretch-image{
+    width: 175px;
+    height: 243px;
+}
+
+.image-container {
+    width: 326px;
+    height: 243px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,41 @@
+.history-page-header{
+    margin-bottom: 50px;
+}
+
+.history-content{
+    width: 100%;
+    max-width: 1000px;
+}
+
+.history-item-header{
+    font-weight: 600;
+    font-size: 18pt;
+    margin: 25px 0;
+}
+
+.history-item-text{
+    font-size: 16pt;
+}
+
+.history-image-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.history-image{
+    width: 400px;
+}
+
+.section-divider{
+    width: 95%;
+    max-width: 1000px;
+    margin: 70px auto;
+}
+
+@media screen and (max-width: 500px){
+    .history-image{
+        width: 100%;
+    }
+}

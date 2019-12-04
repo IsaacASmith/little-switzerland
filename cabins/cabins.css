@@ -1,0 +1,132 @@
+.cabin-page-header{
+    font-size: 25pt;
+    margin-bottom: 60px;
+}
+
+.cabin-divider{
+    width: 100%;
+    height: 1px;
+    color: #888;
+    margin: 60px 0;
+}
+
+.cabin-section{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabin-header{
+    font-size: 20pt;
+    margin-bottom: 30px;
+}
+
+.cabin-main-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabin-main-info-text{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabin-main-p{
+    font-size: 18pt;
+}
+
+.cabin-main-image {
+    max-width: 40%;
+}
+
+.cabin-sub-section{
+    font-size: 18pt;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 25px;
+}
+
+.sub-section-header{
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.sub-section-content{
+    margin-left: 20px;
+}
+
+.cabin-images{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container {
+    width: 326px;
+    height: 243px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cabin-image{
+    width: 326px;
+    height: 243px;
+}
+
+.vert-image{
+    width: 182px;
+    height: 243px;
+}
+
+.end-section{
+    max-width: 1300px;
+    margin-top: 100px;
+    margin-bottom: -30px;
+}
+
+.section-divider{
+    width: 100%;
+    max-width: 1300px;
+}
+
+
+@media screen and (max-width: 1000px){
+
+    .body-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cabin-main-info{
+        flex-direction: column-reverse;
+    }
+    .cabin-main-info *{
+        width: 85%;
+        max-width: 85%;
+    }
+
+    .cabin-header:first-child{
+        margin-top: 40px;
+    }
+}
+
+.book-now-link{
+    padding: 15px;
+    background-color: #444;
+    color: white;
+    display: inline-block;
+    margin: 35px 0;
+    max-width: 130px;
+}

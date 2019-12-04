@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Little Switzerland - Vacation Rentals Near Jasper, Arkansas </title>
+    <meta charset="utf-8" lang="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vacation Cabin Rentals In The Ozarks Near Jasper, Arkansas" />
+    <meta name="theme-color" content="#111" />
+    <link href="manifest.json" rel="manifest">
+    <link href="defaults.css?v=01" rel="stylesheet">
+    <link href="./shared.css" rel="stylesheet">
+    <link href="./index/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Satisfy|Courgette" rel="stylesheet">
+</head>
+
+<body>
+    <section class="page-header">
+        <h1>Little Switzerland</h1>
+        <h2>Cabin Vacation Rentals</h2>
+    </section>
+    <div class="mobile-nav-header">
+        <img src="./img/hamburger.svg" id="open-nav-btn" class="nav-btn" height=30 width=30 onclick="toggleNav()">
+        <img src="./img/close-nav.svg" id="close-nav-btn" class="nav-btn" height=30 width=30 onclick="toggleNav()">
+        <label class="menu-label" onclick="toggleNav()">MENU</label>
+    </div>
+    <nav id="top-nav">
+        <a href="#">Home</a>
+        <a href="./cabins/index.html" id="cabins-link" onmouseover="cabinsHovered()" onmouseout="cabinsUnHovered()">Cabins</a>
+        <div class="cabin-options-mobile">
+            <a href="./cabins/index.html#cabin1">The Cozy Two Story Cabin</a>
+            <a href="./cabins/index.html#cabin2">The Split Level</a>
+            <a href="./cabins/index.html#cabin3">The Mini-Motel Room #3</a>
+            <a href="./cabins/index.html#cabin4">The Mini-Motel Room #4</a>
+            <a href="./cabins/index.html#cabin5">The Mini-Motel Room #5</a>
+            <a href="./cabins/index.html#amenities">Amenities</a>
+        </div>
+        <a href="./nearby/index.html">Nearby</a>
+        <a href="./history/index.html">History</a>
+        <a href="./area-info/index.html">Area Info</a>
+        <a href="./groups/index.html">Groups</a>
+        <a href="./reservations/index.html">Reservations</a>
+    </nav>
+    <div id="cabin-options">
+        <a href="./cabins/index.html#cabin1" onmouseover="cabinOptionsHovered()" onmouseout="cabinOptionsUnHovered()">
+            The Cozy Two Story Cabin</a>
+        <a href="./cabins/index.html#cabin2" onmouseover="cabinOptionsHovered()" onmouseout="cabinOptionsUnHovered()">
+            The Split Level</a>
+        <a href="./cabins/index.html#cabin3" onmouseover="cabinOptionsHovered()" onmouseout="cabinOptionsUnHovered()">
+            The Mini-Motel | Room #3</a>
+        <a href="./cabins/index.html#cabin4" onmouseover="cabinOptionsHovered()" onmouseout="cabinOptionsUnHovered()">
+            The Mini-Motel | Room #4</a>
+        <a href="./cabins/index.html#cabin5" onmouseover="cabinOptionsHovered()" onmouseout="cabinOptionsUnHovered()">
+            The Mini-Motel | Room #5</a>
+        <a href="./cabins/index.html#amenities" onmouseover="cabinOptionsHovered()" onmouseout="cabinOptionsUnHovered()">Amenities</a>
+    </div>
+    <main class="body-content">
+        <section class="section home-section">
+            <p class="home-p">
+                Welcome to Our Place in the Ozark Mountains open year round
+                <br/>
+                <br/>
+                Enjoy the Scenic Beauty and Natural Wonders of the Ozark Mountain Region while
+                staying in one of our cabins that offer all the comforts of home!
+                <br />
+                <br />
+                <a href="reservations/index.html" class="book-now-link">BOOK NOW &#8699;</a>
+                <br />
+                <br />
+                Surrounded by Ozark Mountain beauty, we are close to the Buffalo National River
+                with lots of hiking trails just minutes away. We're only about an hour from
+                Branson and Eureka Springs - so see all the sites and shows, but return to
+                Little Switzerland Cabins to relax in the quiet peaceful beauty
+                of Newton County.
+            </p>
+            <img src="img/all_cabins.jpg" class="home-image" />
+        </section>
+        <hr class="section-divider" />
+        <section class="section home-section-2">
+            <div>
+                <img src="img/cabin_1_outside.jpg" width=210 />
+                <p>Vacation with us today and enjoy your stay in the Ozark Mountains and
+                    the Buffalo National River Area.
+                </p>
+            </div>
+            <div>
+                <img src="img/all_cabins2.jpg" width=210 />
+                <p>
+                    2 ½ Miles North of Jasper, Arkansas on Scenic Byway 7
+                    <br /><br />
+                    P.O. Box 196
+                    <br />
+                    Jasper, Arkansas 72641
+                </p>
+            </div>
+            <div>
+                <img src="img/cabin_1_balcony.jpg" width=210 />
+                <a href="reservations/index.html" class="book-now-link">BOOK NOW &nbsp;&#8699;</a>
+                <br />
+                <a href="mailto:ltlswitz@ritternet.com" class="book-now-link">CONTACT US &#8699;</a>
+            </div>
+        </section>
+        <hr class="section-divider" />
+        <footer class="page-footer">
+            <label>CONTACT</label>
+            <a href="mailto:ltlswitz@ritternet.com">ltlswitz@ritternet.com</a>
+            <a href="tel:8704462810">(870) 446-2810</a>
+            <p>&copy; 2019 - Cabins in the Ozarks</p>
+        </footer>
+    </main>
+    <script src="./shared.js"></script>
+</body>

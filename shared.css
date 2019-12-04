@@ -1,0 +1,140 @@
+.page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+}
+
+.page-header h1{
+    font-size: 40pt;
+    font-weight: 300;
+    font-family: 'Satisfy', 'sans-serif';
+}
+
+.page-header h2{
+    font-size: 16pt;
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 5px #222;
+}
+
+.mobile-nav-header{
+    display: none;
+}
+
+.mobile-nav-header label{
+    cursor: pointer;
+}
+
+#close-nav-btn {
+    display: none;
+}
+
+.nav-btn{
+    cursor: pointer;
+}
+
+nav a, #cabin-options a{
+    color: black;
+    padding: 20px;
+    font-size: 16pt;
+}
+
+nav a:hover, #cabin-options a:hover{
+    color: white;
+    background-color: #444;
+}
+
+#cabin-options{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    margin-left: -90px;
+}
+
+#cabin-options a{
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    width: 300px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+#cabin-options a:first-child{
+    border-top: 1px solid #888;
+}
+
+#cabin-options a:last-child{
+    border-bottom: 1px solid #888;
+}
+
+.cabin-options-mobile{
+    display: none;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.body-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 15px;
+    padding-top: 25px;
+}
+
+.page-footer{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.page-footer *{
+    padding: 5px;
+    font-size: 15pt;
+}
+
+.section-divider{
+    color: black;
+    margin: 75px;
+    width: 1300px;
+}
+
+@media screen and (max-width: 700px){
+    nav{
+        flex-direction: column;
+        display: none;
+    }
+
+    nav a{
+        border-bottom: 1px solid #aaa;
+    }
+
+    .mobile-nav-header{
+        display: flex;
+        padding: 20px;
+        justify-content: flex-end;
+        align-items: center;
+        box-shadow: 0 0 10px #222;
+        font-size: 20pt;
+    }
+
+    .menu-label{
+        padding-left: 7px;
+    }
+
+    .cabin-options-mobile{
+        display: flex;
+    }
+}
